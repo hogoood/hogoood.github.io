@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title : My first post
-categories: [study]
+categories: [TIL]
 ---
 
 드디어 일주일간의 깃헙 에러 해결하기의 여정을 마쳤다....
