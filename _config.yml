@@ -1,14 +1,14 @@
-title: Rohit Jain
-email: rohitjain18005@gmail.com
+title: Hojin Yang
+email: y.hogoood@gmail.com
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://therohitjain.com"
+url: "hogoood.github.io"
 
 # Build settings
 markdown: kramdown
 theme: dev-portfolio-blog
 resume_url: "Resume.pdf"
-author_name: Rohit Jain
+author_name: Hojin Yang
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
