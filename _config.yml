@@ -1,6 +1,10 @@
-resume_url: 'Resume.pdf'
-author_name: 'Hojin Yang'
+resume_url: [PATH_TO_RESUME]
+author_name: Hojin Yang
+description: [SITE_DESCRIPTION]
 url: hogoood.github.io
+google_analytics: '[google analytics Id]'
+disqus:
+    shortname: [discus-shotname]
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
