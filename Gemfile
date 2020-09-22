@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem "dev-portfolio-blog"
-gem "html-proofer"
+source "https://rubygems.org"
+gemspec

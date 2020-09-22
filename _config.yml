@@ -1,15 +1,6 @@
-title: Hojin Yang
-email: y.hogoood@gmail.com
-
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "hogoood.github.io"
-
-# Build settings
-markdown: kramdown
-theme: dev-portfolio-blog
-resume_url: "Resume.pdf"
-author_name: Hojin Yang
-
+resume_url: 'Resume.pdf'
+author_name: 'John Doe'
+url: johndoe.com
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
@@ -70,6 +61,8 @@ pagination:
 
 ############################################################
 
+############################################################
+# Site Configuration data for Jekyll Minifier
 jekyll-minifier:
   preserve_php: true                # Default: false
   remove_spaces_inside_tags: true   # Default: true
@@ -95,12 +88,14 @@ jekyll-minifier:
   preserve_patterns:                # Default: (empty)
   uglifier_args:                    # Default: (empty)
 
+############################################################
+
 # _config.yml
 assets:
   source_maps: true
   destination: "/assets"
-  compression: true
-  gzip: true
+  compression: false
+  gzip: false
   defaults:
     integrity:
       {css,img,js}: false
@@ -137,15 +132,15 @@ assets:
     css: { autoprefixer: {}}
     img: { optim: {}}
 
-plugins:
-  - jekyll-minifier
+  autoprefixer:
+    browsers:
+    - "last 2 versions"
+    - "IE > 9"
 
-google_analytics: 'UA-114665281-1'
+google_analytics: 'UA_123456789_1'
 
 # Disqus Comments
 disqus:
-    shortname: rohitjain00
-
-pwa: true
-
-exclude: [vendor]
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: my_disqus_shortname
