@@ -3,6 +3,7 @@ layout: post
 comments: true
 title : My first post
 categories: [TIL]
+comments: true
 ---
 
 ## My first post
