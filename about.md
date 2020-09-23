@@ -1,5 +1,5 @@
 ---
-title: Rohit Jain | About
+title: Hojin Yang | About
 layout: description
 permalink: /about/
 ---
