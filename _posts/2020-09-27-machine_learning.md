@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title : My first post
+title : What is Machine Learning?
 categories: [Machine Learning]
 ---
 
